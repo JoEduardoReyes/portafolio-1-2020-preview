@@ -1,5 +1,6 @@
 body {
   font-family: "Source Sans Pro", sans-serif;
+  margin: 0px;
 }
 
 h1,
@@ -18,10 +19,12 @@ h1 {
   letter-spacing: -0.2px;
   text-transform: capitalize;
   color: white;
+  margin: 0px;
 }
 
 h1 strong {
   color: #026fff;
+  text-decoration: none;
 }
 
 .project-details {
@@ -30,6 +33,14 @@ h1 strong {
 
 .project-imageContainer {
   width: 500px;
+}
+
+.link {
+  margin: 0px;
+}
+
+body header nav ol {
+  margin: 0px;
 }
 
 .hero {
@@ -49,4 +60,17 @@ h1 strong {
 .header a {
   color: white;
   text-decoration: none;
+}
+
+.portfolio {
+  background: #fafafa;
+}
+
+.project {
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin: 10px;
+  margin-bottom: 15px;
+  padding: 20px;
+  background-color: white;
 }
