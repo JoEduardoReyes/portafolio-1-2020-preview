@@ -39,8 +39,11 @@ h1 strong {
   margin: 0px;
 }
 
-body header nav ol {
+ol,
+ul {
   margin: 0px;
+  padding: 0px;
+  list-style: none;
 }
 
 .hero {
@@ -53,13 +56,33 @@ body header nav ol {
 }
 
 .header {
-  background-color: #1d2127;
-  color: white;
+  background-color: #1b2127;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+}
+
+.menu {
+  height: inherit;
+}
+
+.header ol {
+  display: flex;
+  height: 90px;
+}
+
+.header ol li {
+  height: inherit;
 }
 
 .header a {
   color: white;
   text-decoration: none;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
 }
 
 .portfolio {
@@ -73,4 +96,8 @@ body header nav ol {
   margin-bottom: 15px;
   padding: 20px;
   background-color: white;
+}
+
+figure {
+  margin: 0px;
 }
