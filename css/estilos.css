@@ -46,21 +46,13 @@ ul {
   list-style: none;
 }
 
-.hero {
-  height: 300px;
-  background-image: url("../images/hero.jpg");
-  background-size: 500px 300px;
-  background-repeat: no-repeat;
-  background-position-x: right;
-  background-color: #1d2127;
-}
-
 .header {
   background-color: #1b2127;
   color: #fff;
   display: flex;
   justify-content: space-between;
-  height: 90px;
+  height: 70px;
+  align-items: center;
 }
 
 .menu {
@@ -69,7 +61,7 @@ ul {
 
 .header ol {
   display: flex;
-  height: 90px;
+  height: inherit;
 }
 
 .header ol li {
@@ -83,6 +75,17 @@ ul {
   display: flex;
   align-items: center;
   padding: 0px 10px;
+}
+
+.hero {
+  height: 300px;
+  background-image: url("../images/hero.jpg");
+  background-size: 500px 300px;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-color: #1d2127;
+  display: flex;
+  align-items: center;
 }
 
 .portfolio {
@@ -100,4 +103,21 @@ ul {
 
 figure {
   margin: 0px;
+}
+
+.footer {
+  background-color: #1b2127;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer img {
+  vertical-align: middle;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
 }
