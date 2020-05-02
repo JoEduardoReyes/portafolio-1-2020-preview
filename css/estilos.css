@@ -236,17 +236,33 @@ figure {
   margin: 0px 10px;
 }
 
-.social-link.twitter {
+/* .social-link.twitter {
   background-image: url("../images/twitter.svg");
+} */
+
+.fab.fa-twitter {
+  font-size: 60px;
+  color: white;
+  text-decoration: none;
+  margin: 0px 10px;
 }
-.social-link.facebook {
-  background-image: url("../images/facebook.svg");
+.fab.fa-facebook-square {
+  font-size: 60px;
+  color: white;
+  text-decoration: none;
+  margin: 0px 10px;
 }
-.social-link.github {
-  background-image: url("../images/github.svg");
+.fab.fa-github {
+  font-size: 60px;
+  color: white;
+  text-decoration: none;
+  margin: 0px 10px;
 }
-.social-link.instagram {
-  background-image: url("../images/instagram.svg");
+.fab.fa-instagram {
+  font-size: 60px;
+  color: white;
+  text-decoration: none;
+  margin: 0px 10px;
 }
 
 .footer {
