@@ -3,6 +3,16 @@ body {
   margin: 0px;
 }
 
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+}
+
 h1,
 h2,
 h3,
@@ -80,14 +90,21 @@ ul {
 
 .hero {
   height: 300px;
-  background-image: url("../images/hero.jpg");
+  /* background-image: url("../images/hero.jpg");
   background-size: 500px 300px;
   background-repeat: no-repeat;
-  background-position-x: right;
+  background-position-x: right; */
   background-color: #1d2127;
   display: flex;
   align-items: center;
-  padding: 0px 10px;
+  justify-content: space-between;
+}
+
+.hero h1 {
+  padding-left: 10px;
+}
+
+.hero-image {
   object-fit: cover;
 }
 
@@ -152,6 +169,7 @@ figure {
 
 .event-list {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .event {
@@ -160,7 +178,7 @@ figure {
   flex-shrink: 0;
   border-radius: 10px;
   overflow: hidden;
-  background-color: #f4fbff;
+  background-color: #026fff;
 }
 
 .event img {
@@ -240,24 +258,9 @@ figure {
   background-image: url("../images/twitter.svg");
 } */
 
-.fab.fa-twitter {
-  font-size: 60px;
-  color: white;
-  text-decoration: none;
-  margin: 0px 10px;
-}
-.fab.fa-facebook-square {
-  font-size: 60px;
-  color: white;
-  text-decoration: none;
-  margin: 0px 10px;
-}
-.fab.fa-github {
-  font-size: 60px;
-  color: white;
-  text-decoration: none;
-  margin: 0px 10px;
-}
+.fab.fa-twitter,
+.fab.fa-facebook-square,
+.fab.fa-github,
 .fab.fa-instagram {
   font-size: 60px;
   color: white;
